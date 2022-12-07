@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/countdown-svgrepo-com.svg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header><img src="./images/top-image.svg" alt="" /></header>
+
+    <main id="container">
+      <section class="countdown-timer">
+        <h1 class="title">Ready to go in...</h1>
+        <div id="timer">
+          <div class="timer-content">
+            <span class="labels">Dias</span><span class="numbers" id="days"></span>
+          </div>
+          <span class="dot">:</span>
+          <div class="timer-content">
+            <span class="labels">Horas</span><span class="numbers" id="hours"></span>
+          </div class="timer-content">
+          <span class="dot">:</span>
+          <div class="timer-content">
+            <span class="labels">Minutos</span><span class="numbers" id="minutes"></span>
+          </div>
+          <span class="dot">:</span>
+          <div class="timer-content">
+            <span class="labels">Segundos</span><span class="numbers" id="seconds"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="rocket"><img src="./images/rocket.svg" alt="" /></section>
+    </main>
+
+    <footer><img src="./images/bottom-image.svg" alt="" /></footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
